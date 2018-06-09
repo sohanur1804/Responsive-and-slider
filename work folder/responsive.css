@@ -1,0 +1,215 @@
+.slicknav_menu {
+	display:none;
+}
+
+/* Extra small devices ( max-600px) */
+@media only screen and (max-width: 600px) {
+	.container{
+		width:90%;
+		padding: 0 5%;
+	}
+	.header_top_sec {
+		height: 120px;
+	}
+	
+	.top_left {
+		width: 100%;
+		float: none;
+	}
+	.top_right {
+		width: 100%;
+		float: none;
+	}
+	.top_left div {
+		float: none;
+		margin: 10px 0 10px 0;
+		text-align: center;
+	}
+	.top_left div.email {
+		margin-left: 0;
+	}
+	.sf {
+	width: 97%;
+	}
+	.logo_part {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	
+	/* Mobile Menu */
+	.slicknav_menu {
+		display:block;
+	}
+	#mobile_nav{
+		display:none;
+	}
+	.slicknav_btn{
+		width:100%;
+		margin-bottom:20px;
+	}
+	.slicknav_menu .slicknav_menutxt{
+		position:absolute;
+		left: 42%; 
+	}
+	.slicknav_menu .slicknav_icon{
+		position:absolute;
+		left: 55%;
+	}
+	.menu_part {
+		width: 100%;
+		float: none;
+	}
+	.slicknav_menu {
+		background: transparent;
+	}
+	.menu_part ul {
+		float: none;
+		text-align:center;
+	}
+	.menu_part ul li {
+		float: none;
+		border-right: none;
+		width: 100%;
+		border-bottom: 1px solid #999;
+	}
+	
+	
+	/* Content css */
+	.promo_box {
+		width: 100%;
+		float: left;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	div.content_inner {
+		width: 100%;
+		margin-left: 0;
+	}
+	.single_cont {
+		width: 100%;
+		margin-left: 0;
+		margin-bottom:20px;
+	}
+	.cont_img {
+		width: 20%;
+		padding-right: 10%;
+	}
+	.cont_img  img{
+		width:100%;
+		height:auto;
+	}
+	.cont_text {
+		width: 70%;
+	}
+	.athore_holding {
+		text-align: center;
+	}
+	.single_athore {
+		width: 100%;
+		float: none;
+		margin-left: 0;
+		margin-bottom: 20px;
+	}
+	.single_widget {
+		width: 100%;
+		margin-left: 0;
+		float: left;
+		margin-bottom: 40px;
+	}
+	.widget4_bottom form input {
+		display: block;
+	}
+	#banner .owl-nav button span {
+	font-size: 23px;
+	width: 31px;
+	height: 31px;
+	background: #333;
+	border-radius: 50%;
+	border: 2px solid #eee;
+	display: block;
+}
+	
+} 
+
+/*  (phones, 600px and down) */
+@media only screen and (max-width: 767px) {
+	
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.container{
+		width:728px;
+	}
+	.top_left div.email{
+		margin-left:25px;
+	}
+	.logo_part{
+		width: 20%;
+	}
+	.logo img{
+		width:150px;
+	}
+	.site_slogun h4{
+		font-size: 10px;
+	}
+	.menu_part{
+		width: 80%;
+		float: right;
+	}
+	.menu_part ul li{
+		padding:0 10px;
+	}
+	.promo_box{
+		width:174px;
+		margin-right: 10px;
+	}
+	.promo_content h3{
+		margin:5px 0 10px 0;
+		font-size: 14px;
+	}
+	div.content_inner{
+		width:100%;
+		margin-left: 0;
+	}
+	.single_cont{
+		width:45%;
+		margin-bottom:30px;
+	}
+	.cont_img{
+		width:20%;
+		padding-right:8%;
+	}
+	.cont_img img{
+		width:100%;
+		height:auto;
+	}
+	.cont_text{
+		width:72%;
+	}
+	.athore_holding{
+		text-align:center;
+	}
+	.single_athore{
+		float: none;
+		display:inline-block;
+	}
+	.single_widget{
+		width:22%;
+		margin-left:3%;
+		float: left;
+	}
+	.single_widget img{
+		width:100%;
+		height:auto;
+	}
+
+
+} 
+
+
+
+
+
+
